@@ -2,6 +2,8 @@
 <a href="index.php?route=notes.create">+ Ajouter une note</a>
 <ul>
 
+
+
   <?php foreach ($notes as $note): ?>
     <li>
       <b><?= $note['title'] ?></b> - <?= $note['content'] ?>

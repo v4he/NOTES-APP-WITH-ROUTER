@@ -17,6 +17,9 @@ switch ($route) {
     case 'notes.delete':
         deleteNote();
         break;
+    case 'notes.search':
+        searchNote();
+        break;
     default:
         echo "404 - Page not found";
 }
